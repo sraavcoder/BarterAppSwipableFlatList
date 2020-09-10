@@ -15,7 +15,6 @@ export default class SwipableFlatList extends React.Component {
         super(props);
         this.state = {
             allNotifications: this.props.allNotifications,
-            docID: '',
         }
     }
 
